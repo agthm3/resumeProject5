@@ -2,11 +2,20 @@
 html {
   overflow-x: hidden; }
 
+
+.foto{
+  width: 96%;
+  max-width: 300px;
+  margin: 0 auto;
+  
+  align:bottom;
+}
 .profil{
   width: 300px;
   margin-bottom: 100px;
   margin-right: 300px;
-  position: absolute;
+ 
+  padding: 0;
   border-radius: 20px;
 }
 body {
@@ -26,6 +35,10 @@ body {
 .profilTeks{
 
   margin-bottom: 40px;
+}
+
+.respons{
+  display: block;
 }
 a {
   -webkit-transition: .3s all ease;
@@ -606,11 +619,12 @@ body:after {
     height: 100vh; }
   .site-blocks-cover .text-intro {
     position: relative;
-    z-index: 2; }
+    z-index: 2;
+    height: 300vh; }
   .site-blocks-cover h1 {
     font-size: 3rem;
     font-family: "Arbutus Slab", serif; }
-  .site-blocks-cover .img-face {
+ /* .site-blocks-cover .img-face {
     position: absolute;
     right: -5%;
     bottom: 0;
@@ -618,7 +632,7 @@ body:after {
     max-width: 950px; }
     @media (max-width: 991.98px) {
       .site-blocks-cover .img-face {
-        right: -25%; } }
+        right: -25%; } } */
 
 .section-title {
   position: relative;
